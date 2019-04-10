@@ -1,0 +1,61 @@
+body {
+	background-color: white;
+	margin: 0px;
+	padding:0px;
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+.cookie {
+	font-family: cookie;
+	font-size: 1.5em;
+}
+
+
+.wrapper {
+	width: 400px;
+	min-height: 500px;
+	background-color: #f6f6f6; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 40px 0px;
+}
+
+.screen {
+	max-width:83%;
+	margin: auto;
+	height: 100px;
+	background-color: white;
+}
+
+.numbers-container {
+	max-width:100%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.numbers-container input {
+	width: 80px;
+	height: 60px;
+	background-color: #ebebeb;
+	border:0px;
+	margin-top: 1.5px;
+	font-size: 1.1em;
+	color: #333;
+	opacity: 0.9;
+
+}
+
+.numbers-container input:hover {
+	background-color: #d4d4d4;
+	border:1px solid #999999;
+
+
+
+}
+
+.final {
+	background-color: green;
+}
